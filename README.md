@@ -5,6 +5,8 @@
 尤其适合**不出网**或者**白名单**的环境
 适合监控配置文件,脚本,ELF等
 
+如果需要使用DoH来查询,则使用 `dnslog_check_hash_doh.sh` ,默认使用nslookup来查询
+
 当指定文件发生变化后,会nslookup指定的Dnslog域名,服务端定期监测变化,监测到有新的记录就调用api发送通知
 
 需要配合[dnslog.org](https://dnslog.org)使用
