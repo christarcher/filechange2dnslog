@@ -7,7 +7,7 @@
 
 当指定文件发生变化后,会nslookup指定的Dnslog域名,服务端定期监测变化,监测到有信记录就调用api发送通知
 
-
+需要配合[dnslog.org](https://dnslog.org)使用
 
 ## 使用
 首先需要修改配置,客户端需要修改dnslog.org域名
